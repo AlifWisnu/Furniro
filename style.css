@@ -1,0 +1,122 @@
+:root {
+    --primary-bg-color: #FFF3E3;
+    --second-bg-color: #F4F5F7;
+    --primary-color: #B88E2F;
+    --discount-clolor: #E97171;
+    --new-colour: #2EC1AC;
+    --blur-text-colour: #9F9F9F;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 2%;
+}
+
+.logoAtas {
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.navLinks {
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+}
+
+.navIcons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navDeco {
+    color: black;
+    text-decoration: none;
+}
+
+.banner {
+    width: 100%;
+    position: relative;
+    background-image: url("./Gambar/scandinavian-interior-mockup-wall-decal-background\ 1.png");
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+.moto {
+    background-color: var(--primary-bg-color);
+    width: 40%;
+    padding: 3%;
+    position: absolute;
+    right: 5%;
+    top: 25%;
+    border-radius: 2%;
+}
+
+.discover {
+    color: var(--primary-color);
+    font-weight: bold;
+    margin: 0;
+    
+}
+
+.paragraf {
+    margin: 10% 0;
+}
+
+.button {
+    padding: 3% 5%;
+    width: 30%;
+    font-weight: bold;
+    text-align: center;
+    background: var(--primary-color);
+}
+
+#buyNow {
+    color: white;
+    text-decoration: none;
+}
+
+.browse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 0;
+}
+
+.theRange {
+    margin: 0;
+    font-weight: bold;
+}
+
+.pBrowse {
+    margin: 0;
+    font-weight: lighter;
+    color: #666666;
+}
+
+.imgBrowseCard {
+    display: flex;
+    justify-content: center;
+    margin: 2% 0;
+    width: 100%;
+}
+
+.imgBrowse {
+    width: 25%;
+    margin: 0 2%;
+}
+
+.imageBrowse {
+    width: 100%;
+    border-radius: 5%;
+}
