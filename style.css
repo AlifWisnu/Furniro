@@ -78,8 +78,8 @@ img {
 }
 
 #buyNow {
-    padding: 3% 5%;
-    width: 30%;
+    padding: 1rem;
+    width: 9rem;
     font-weight: bold;
     text-align: center;
     background: var(--primary-color);
@@ -88,6 +88,8 @@ img {
 .button {
     color: white;
     text-decoration: none;
+    display: flex;
+    width: max-content;
 }
 
 .browse {
@@ -216,17 +218,18 @@ img {
 
 #eksplorNow {
     background-color: var(--primary-color);
-    width: 10%;
     text-align: center;
+    padding: 1rem 1.5rem;
+    font-weight: bold;
 }
 
 .roomInspiration {
     background-color: var(--primary-bg-color);
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 3%;
+
 }
 
 .textInspiration {
@@ -244,19 +247,21 @@ img {
 .roomCard {
     position: relative;
     width: 30%;
-    display: flex;
 }
 
 .roomLabel {
     display: flex;
+    align-items: end;
+    width: max-content;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1rem;
 }
 
 .roomName {
-    position: absolute;
-    top: 70%;
-    left: 10%;
     background-color: var(--alte-bg-color);
-    padding: 5%;
+    padding: 1rem;
+    width: 8.5rem;
 }
 
 .nameRoom {
@@ -271,10 +276,9 @@ img {
 }
 
 .roomArrow {
-    position: absolute;
-    top: 80%;
-    right: 41%;
     background-color: var(--primary-color);
+    display: flex;
+    width: 2rem;
 }
 
 .imgInspiration {
