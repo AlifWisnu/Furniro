@@ -8,6 +8,7 @@
     --blur-text-product:#898989;
     --blur-price-product:#B0B0B0;
     --blur-text-colour: #9F9F9F;
+    --slide-inspiration-off: #D8D8D8;
 }
 
 * {
@@ -229,11 +230,11 @@ img {
     align-items: center;
     justify-content: center;
     gap: 3%;
-
+    padding: 2rem;
 }
 
 .textInspiration {
-    width: 30%;
+    width: 25rem;
 }
 
 .inspiration50 {
@@ -246,7 +247,7 @@ img {
 
 .roomCard {
     position: relative;
-    width: 30%;
+    width: 25rem;
 }
 
 .roomLabel {
@@ -283,6 +284,45 @@ img {
 
 .imgInspiration {
     display: flex;
+    flex-direction: column;
+    width: 25rem
+}
+
+.slideContainer {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+    align-items: center;
+}
+
+.slideInspiration {
+    background-color: var(--slide-inspiration-off);
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 100%;
+}
+
+.slideOn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+    border: solid 2px var(--primary-color);
+}
+
+.slideOn div {
+    background-color: var(--primary-color);
+}
+
+.objectCoverInspiration {
+    width: 6rem;
+}
+
+.objectCoverInspiration img {
+    width: auto;
+    object-fit: cover;
 }
 
 footer {
