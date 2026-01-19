@@ -347,10 +347,22 @@ img.Re26 {
 
 .slideButton {
     width: max-content;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    border-radius: 100%;
+    position: absolute;
+    right: 3rem;
 }
 
 .slideButton a {
-    
+    text-decoration: none;
+    color: var(--primary-color);
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
