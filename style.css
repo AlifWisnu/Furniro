@@ -38,13 +38,18 @@ img {
 
 .navLinks {
     display: flex;
-    width: 20%;
+    gap: 0.5rem;
     justify-content: space-around;
 }
 
 .navIcons {
     display: flex;
     justify-content: space-around;
+}
+
+.navIcons img {
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .navDeco {
@@ -231,6 +236,7 @@ img {
     justify-content: center;
     gap: 3%;
     padding: 2rem;
+    position: relative;
 }
 
 .textInspiration {
@@ -316,13 +322,35 @@ img {
     background-color: var(--primary-color);
 }
 
-.objectCoverInspiration {
-    width: 6rem;
-}
-
 .objectCoverInspiration img {
     width: auto;
     object-fit: cover;
+}
+
+.imageSlide {
+    /* position: absolute; */
+    width: 2rem;
+    height: 2rem;
+}
+
+.imageSlide img {
+    object-fit: cover;
+    width: 10rem;
+}
+
+img.Re26 {
+    object-fit: cover;
+    width: 5rem;
+    height: 21rem;
+    margin: 0 0 3rem;
+}
+
+.slideButton {
+    width: max-content;
+}
+
+.slideButton a {
+    
 }
 
 footer {
@@ -372,4 +400,46 @@ footer {
 .underline {
     padding: 0.05rem;
     background-color: black;
+}
+
+
+/* Shop CSS */
+.shopHero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shopHero img {
+    height: 20rem;
+    object-fit: cover;;
+    filter: blur(2px);
+}
+
+.shopLabel {
+    position: absolute;
+    justify-items: center;
+}
+
+.shopFilter {
+    background-color: var(--primary-bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shopFilterLeft {
+    display: flex;
+}
+
+.filterIcons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.filterIcons img {
+    width: 1rem;
+    height: 1rem;
 }
