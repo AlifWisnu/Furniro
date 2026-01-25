@@ -51,6 +51,10 @@ img {
     justify-content: space-around;
 }
 
+.navLinks a:hover {
+    text-decoration: underline;
+}
+
 .navIcons {
     display: flex;
     justify-content: space-around;
@@ -98,6 +102,7 @@ img {
     font-weight: bold;
     text-align: center;
     background: var(--primary-color);
+    transition: all 0.5s;
 }
 
 .button {
@@ -105,6 +110,12 @@ img {
     text-decoration: none;
     display: flex;
     width: max-content;
+}
+
+.button:hover #buyNow {
+    color: var(--primary-color);
+    background: white;
+
 }
 
 .browse {
@@ -276,12 +287,18 @@ img {
     padding: 2%
 }
 
+#showMore:hover .button2 {
+    color: white;
+    background: var(--primary-color);
+}
+
 .button2 {
     color: var(--primary-color);
     text-align: center;
     border: solid 1px var(--primary-color);
     font-weight: bold;
     padding: 5% 0;
+    transition: all 0.5s;
 }
 
 #eksplorNow {
@@ -289,6 +306,12 @@ img {
     text-align: center;
     padding: 1rem 1.5rem;
     font-weight: bold;
+    transition: all 0.5s;
+}
+
+#eksplorNow:hover {
+    background-color: white;
+    color: var(--primary-color);
 }
 
 .roomInspiration {
@@ -436,6 +459,66 @@ img.Re26 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 1rem 0;
+}
+
+.furnitureHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.furnitureHeader p {
+    margin: 0;
+    font-size: large;
+    font-weight: bold;
+    color:rgba(97, 97, 97, 1);
+}
+
+.furnitureHeader h1 {
+    margin: 0;
+    font-weight: bolder;
+}
+
+.furnitureImg {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.furnitureLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.furnitureLeftTop {
+    display: flex;
+    align-items: end;
+    gap: 1rem;
+}
+
+.furnitureLeftBottom {
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+}
+
+.furnitureRight {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.furnitureRightTop {
+    display: flex;
+    align-items: end;
+    gap: 1rem;
+}
+
+.furnitureRightBottom {
+    display: flex;
+    gap: 1rem;
 }
 
 footer {
