@@ -68,6 +68,17 @@ img {
 .navDeco {
     color: black;
     text-decoration: none;
+    transition: all 0.5s;
+}
+
+.navDeco:hover {
+    color: white;
+    background: black;
+}
+
+.gapHeader {
+    width: 1rem;
+    height: 3.5rem;
 }
 
 .banner {
@@ -697,4 +708,66 @@ footer {
 .labelShopDiv p {
     margin: 0;
     color: var(--blur-text-colour);
+}
+
+
+/* product */
+.location {
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+    background: var(--primary-bg-color);
+    padding: 1rem 2rem;
+}
+
+.location div {
+    font-weight: bold;
+}
+
+.locationList {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.locationList p {
+    color: var(--blur-text-colour);
+}
+
+.product {
+    display: flex;
+    margin: 2rem 0;
+}
+.productImage {
+    display: flex;
+}
+
+.productImageLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.productImageLeft div {
+    background: var(--primary-bg-color);
+}
+
+.productImageLeft img {
+    width: 5rem;
+}
+
+.review {
+    display: flex;
+}
+
+.review img {
+    width: 2rem;
+}
+
+.shareIcons {
+    display: flex;
+}
+
+.shareIcons img {
+    width: 1rem;
 }
