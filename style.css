@@ -637,3 +637,64 @@ footer {
 .sortOptions {
     width: 7rem;
 }
+
+.slideShop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+.slideShop div {
+    background-color: var(--primary-bg-color);
+    padding: 1rem;
+    border-radius: 15%;
+    transition: all 0.5s;
+}
+
+#slideShopOn {
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.slideShop div:hover {
+    color: white;
+    background-color: var(--primary-color);
+    padding: 1.5rem;
+    cursor: pointer;
+}
+
+.labelShop {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--primary-bg-color);
+    padding: 2rem 0;
+}
+
+.labelShopDiv {
+    display: flex;
+    align-items: center;
+}
+
+.labelShopDiv img {
+    width: 3rem;
+    margin: 1rem;
+}
+
+.labelShopDivHeader {
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+
+.labelShopDiv div {
+    display: flex;
+    flex-direction: column;
+}
+
+.labelShopDiv p {
+    margin: 0;
+    color: var(--blur-text-colour);
+}
