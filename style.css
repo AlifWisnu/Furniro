@@ -29,6 +29,7 @@ header {
     padding: 1% 0;
     gap: 1rem;
     position: fixed;
+    top: 0;
     z-index: 5;
     background-color: white;
     width: 100%;
@@ -736,10 +737,12 @@ footer {
 
 .product {
     display: flex;
-    margin: 2rem 0;
+    justify-content: space-between;
+    margin: 2rem;
 }
 .productImage {
     display: flex;
+    gap: 1rem;
 }
 
 .productImageLeft {
@@ -750,18 +753,145 @@ footer {
 
 .productImageLeft div {
     background: var(--primary-bg-color);
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    border-radius: 0.5rem;
 }
 
-.productImageLeft img {
-    width: 5rem;
+.productImageRight div {
+    background: var(--primary-bg-color);
+    width: 25rem;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.productDetail {
+    padding: 0 2rem 0 0;
+}
+
+.productName h1 {
+    margin: 0;
+}
+
+.productName p {
+    color: var(--blur-text-colour);
+}
+
+.priceHeader {
+  font-size: x-large;
+  margin: 1rem 0;  
 }
 
 .review {
     display: flex;
+    align-items: center;
 }
 
 .review img {
-    width: 2rem;
+    width: 1.5rem;
+}
+
+.productDescription {
+    margin: 1rem 0;
+    width: 30rem;
+}
+
+.productSize {
+    display: flex;
+    gap: 1rem;
+}
+
+.headerProductType {
+    color: var(--blur-price-product);
+}
+
+.buttonProductSize {
+    background: var(--primary-bg-color);
+    padding: 1rem;
+    border-radius: 1rem;
+    transition: all 0.5s;
+}
+
+.buttonProductSize:hover {
+    background: var(--primary-color);
+    color: white;
+    cursor: pointer;
+}
+
+.productColor {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.colorCircle {
+    padding: 1.5rem;
+    margin: 0.5rem;
+    border-radius: 3rem;
+    transition: all 0.4s;
+}
+
+.colorCircle:hover {
+    padding: 2rem;
+    margin: 0rem;
+    cursor: pointer;
+}
+
+.purchase {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.totalPurchase {
+    display: flex;
+    align-items: center;
+    border: solid 1px black;
+    border-radius: 0.3rem;
+    gap: 1.5rem;
+    padding: 1rem 2rem;
+}
+
+.addToCartButton a {
+    color: black;
+    text-decoration: none;
+    border: solid black 2px;
+    border-radius: 0.3rem;
+    padding: 1rem 3rem;
+    transition: all 0.3s;
+}
+
+.addToCartButton:hover a {
+    color: white;
+    text-decoration: underline;
+    background: black;
+}
+
+.compareItem a {
+    color: black;
+    text-decoration: none;
+    border: solid black 2px;
+    border-radius: 0.3rem;
+    padding: 1rem 3rem;
+    transition: all 0.3s;
+}
+
+.compareItem:hover a {
+    color: white;
+    text-decoration: underline;
+    background: black;
+}
+
+.productDetail2 {
+    display: flex;
+    gap: 1rem;
+    color: var(--blur-price-product);
 }
 
 .shareIcons {
@@ -770,4 +900,50 @@ footer {
 
 .shareIcons img {
     width: 1rem;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.descriptionTabs {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.selected {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.notSelect {
+    font-size: x-large;
+    color: var(--blur-price-product);
+    transition: all 0.4s;
+}
+
+.notSelect:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    color: black;
+}
+
+.descriptionContent {
+    color: var(--blur-price-product);
+    width: 85%;
+    margin: 2rem 0;
+}
+
+.productImages {
+    display: flex;
+    gap: 1rem;
+}
+
+.productImages div {
+    background: var(--primary-bg-color);
+    border-radius: 1rem;
 }
